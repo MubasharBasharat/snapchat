@@ -1,6 +1,6 @@
 # snapchat
 
-A new Flutter project.
+A new Flutter project.This includes only UI of snapchat login.Although the it is not functional but it contains login UI which Accepts username and password.
 
 ## Getting Started
 
