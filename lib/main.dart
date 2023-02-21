@@ -9,7 +9,6 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
-  
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -90,6 +89,8 @@ class MyApp extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 30.0),
                 child: TextFormField(
+                  obscureText: true,
+                  obscuringCharacter: '*',
                   decoration: InputDecoration(
                       suffixIcon: Icon(Icons.visibility_off_sharp),
                       filled: false,
